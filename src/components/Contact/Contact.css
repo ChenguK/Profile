@@ -1,0 +1,10 @@
+button {
+    background: none;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: rgb(193, 226, 215);
+    pointer-events: auto;
+}

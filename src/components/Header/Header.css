@@ -1,0 +1,17 @@
+
+.Header {
+    width: 90%;
+    margin: 2rem 4rem 2rem 3rem; 
+}
+
+*, 
+*:before, 
+*:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: content-box;
+}
+
+
+#header_email {
+    background: none;
+}
