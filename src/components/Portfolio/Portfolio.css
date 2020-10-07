@@ -13,10 +13,56 @@ div.portfolio {
     width: 70vh;
     object-fit: cover;
     border-radius: 7px;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .zoom:hover {
     transform: scale(1.1); 
     box-shadow: 2rem 4rem 6rem 2rem rgba(0,0,0, 0.253);
     
+  }
+
+  #FavVideo {
+    background-image: url("./MyFavoriteVideo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    padding-bottom: 2rem;
+  }
+
+  #Moods {
+    background-image: url("./moods_loginpage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    padding-bottom: 2rem; 
+  }
+
+  #HabitZen {
+    background-image: url("./UserSummaryPageScreenShot.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    padding-bottom: 2rem; 
+  }
+
+  #WhaleScope {
+    background-image: url("./Whale_Landing_Page.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    padding-bottom: 2rem; 
   }

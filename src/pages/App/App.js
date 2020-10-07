@@ -8,6 +8,7 @@ import Loading from '../../components/Loading/Loading';
 import PortfolioPage from '../PortfolioPage/PortfolioPage';
 import ContactPage from '../ContactPage/ContactPage';
 import ResumePage from '../ResumePage/ResumePage';
+import ProcessPage from '../ProcessPage/ProcessPage';
 
 class App extends Component {
 state = {
@@ -24,7 +25,7 @@ async componentDidMount(){
         <header className="navbar-fixed" 
           style={{ margin: "2rem 2rem 2rem 1rem" }}>
           <div className="nav-wrapper">
-            <NavBar />
+            <NavBar className="white" />
           </div>
         </header>
           
@@ -32,8 +33,12 @@ async componentDidMount(){
           <div className="row center" style={{ width: "100%", margin: "2rem 3rem 2rem 4.5rem"}}>
             <div className="col s5">
               <div className="card">
-              <BioPage />
-              <ResumePage />
+                <ProcessPage />
+                <hr />
+                <ResumePage />
+                <br />
+                <hr />
+                <BioPage />
               </div>
             </div>
             <div className="col s7 right">
@@ -44,15 +49,15 @@ async componentDidMount(){
 
           <ContactPage />
             <br />
-          <footer style={{ paddingBottom: "30px" }} className="page-footer black">
-            <div className="right">All Rights Reserved, &copy; 2020 Chengu Kargbo &nbsp;</div>
+          <footer style={{ paddingBottom: "30px" }} className="page-footer transparent">
+            <div className="right black-text">All Rights Reserved, &copy; {new Date().getFullYear()} Chengu Kargbo &nbsp;</div>
           </footer>
       </div>
     );
   }
 }
 function loadingPage() {
-  return new Promise((resolve) => setTimeout(() => resolve(), 1500));
+  return new Promise((resolve) => setTimeout(() => resolve(), 2000));
   
 }
 

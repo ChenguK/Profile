@@ -11,50 +11,53 @@ class Header extends Component {
         return (
             <div className="Header card container" id="header">
                 <div className="row">
+                
                         
                     <div className="right col s8 ">
-                    <h4>Chengu Kargbo</h4>
+                    <h3>Chengu Kargbo</h3>
                         <ul>
-                            <li>Software Developer</li>
-                            <li>Actor</li>
+                            <li>Full Stack Software Developer</li>
+                            {/* <li>Actor</li>
+                            <li>Writer</li> */}
                             <br/>
                             <li className="container left-align">Chengu Kargbo is a natural problem solver, a creative Full Stack Web Developer, and an actor who loves helping creative people take their vision from an idea to a global audience.</li>
                             <br/>
                             <li style={{ margin: "0 7rem 0 7rem", display: "inline"}}>
-                            <form   className=" btn-floating btn-large green" 
+                            <form className="btn-floating btn-large green" 
                                 action= "mailto:ChenguKargbo@gmail.com">
-                                <button 
-                                type="submit">
-                                    <img id="header_email" width="45rem" style={{ marginTop: ".3rem", cursor: "pointer"}} src={ Envelope } alt="email"/>
+                                <button>
+                                    <img id="header_email" title="Email Me" width="45rem" style={{ marginTop: ".3rem"}} src={ Envelope } alt="email"/>
                                 </button> 
                             </form>
-                            <form style={{ margin: "2rem", cursor: "pointer"}} className=" btn-floating btn-large green" 
+                            
+                            <form style={{ margin: "2rem", cursor: "pointer"}} className="btn-floating btn-large green" 
                                 action="https://github.com/ChenguK" target="_blank">
                                 <button 
                                 type="submit">
-                                    <img id="header_git" width="45rem" style={{ marginTop: ".3rem", cursor: "pointer"}} src={ Git } alt="github"/>
+                                    <img id="header_git" width="45rem" title="GitHub" style={{ marginTop: ".3rem", cursor: "pointer"}} src={ Git } alt="github"/>
                                 </button> 
                             </form>
                             <form  className=" btn-floating btn-large green" 
                                 action="https://www.linkedin.com/in/chengukargbo/" target="_blank">
                                 <button 
                                 type="submit">
-                                    <img id="header_linkedin" width="33rem" style={{ marginTop: ".8rem", cursor: "pointer"}} src={ LinkedIn } alt="linkedin"/>
+                                    <img id="header_linkedin" title="LinkedIn" width="33rem" style={{ marginTop: ".8rem", cursor: "pointer"}} src={ LinkedIn } alt="linkedin"/>
                                 </button> 
                             </form>
                             </li>
                         </ul>
                     </div>       
-                    <div className="right col s3 " width="80%">
+                    <div className="right col s4 " width="70%">
                     <img 
-                        width="80%"
+                        width="60%"
                         style={{ 
-                            padding: ".7rem", 
+                            padding: "1rem 0 1rem 2rem", 
+                            marginLeft: "4rem",
                             borderRadius: "7rem"
                         }}
                         
                         src={ Face } 
-                        alt="Photo"/>
+                        alt="Chengu"/>
                     </div>
                 </div>
             </div>

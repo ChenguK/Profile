@@ -1,0 +1,13 @@
+.loading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 20rem;
+}
+
+#loading_heart {
+    height: 100%;
+} 
+
