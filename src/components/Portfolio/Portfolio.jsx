@@ -13,7 +13,11 @@ class Portfolio extends Component {
 
     render () {
         return (
-            <div className="portfolio" >
+            <div className="portfolio">
+              
+                {/* <h5 className="left-align white" width="100%" 
+                     style={{ padding: "0 68vh 0 1rem" }}
+                     >Past Projects</h5> */}
                     <div className="zoom" id="WhaleScope">
                         <ul>
                             <li style={{ margin: "0 1rem 0 1rem", display: "inline" }}>
@@ -64,16 +68,16 @@ class Portfolio extends Component {
                             </li> 
                         </ul> 
                     </div>
-                   <div 
+                   <div trigger=""
                    className="zoom collapsible expandable waves-effect waves-light" id="FavVideo">
-                                <Collapsible trigger=" ">
+                                {/* <Collapsible>
                                 {/* <form style={{ margin: "0 1rem 0 1rem", display: "inline" }}>
                                     <button className=" collapsible expandable btn-floating btn-large waves-effect waves-light green" rel="noreferrer noopener">
                                         <i className="material-icons">add</i>
-                                    </button> */}
+                                    </button>
                                     <div className="collapsible-body"><span>Your New Favorite Video</span> <p>I have created an app where you can look for your new favorite video. Search any term, and click on any of the images and a modal appears with a larger picture of the videos thumbnail with the title, channel name and a description of the video below. You can click the image to open the video in another window or click off the modal to choose a different video.</p></div> 
-                                {/* </form> */}
-                                </Collapsible>
+                                {/* </form> 
+                                </Collapsible> */}
                        <ul>
                             <li style={{ margin: "0 1rem 0 1rem", display: "inline" }}>
                                 <form style={{ margin: "0 1rem 0 1rem", display: "inline" }} action="https://github.com/ChenguK/newfavoritevideo" target="_blank">

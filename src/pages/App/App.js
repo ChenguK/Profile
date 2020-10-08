@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.css';
+// import { Route, Switch } from 'react-router-dom';
 import NavBar from '../../components/NavBar/NavBar';
 import Header from '../HeaderPage/HeaderPage';
 import BioPage from '../BioPage/BioPage';
@@ -9,6 +9,7 @@ import PortfolioPage from '../PortfolioPage/PortfolioPage';
 import ContactPage from '../ContactPage/ContactPage';
 import ResumePage from '../ResumePage/ResumePage';
 import ProcessPage from '../ProcessPage/ProcessPage';
+import SkillsPage from '../SkillsPage/SkillsPage';
 
 class App extends Component {
 state = {
@@ -22,10 +23,11 @@ async componentDidMount(){
     return (
       this.state.loading ? <Loading /> :
       <div className="App center">
-        <header className="navbar-fixed" 
-          style={{ margin: "2rem 2rem 2rem 1rem" }}>
+        <header className="navbar-fixed center white"
+          width="100%" 
+          style={{ margin: "0 0 1rem 1rem", padding: "1.25rem 1rem 0 0" }}>
           <div className="nav-wrapper">
-            <NavBar className="white" />
+            <NavBar />
           </div>
         </header>
           
@@ -33,12 +35,17 @@ async componentDidMount(){
           <div className="row center" style={{ width: "100%", margin: "2rem 3rem 2rem 4.5rem"}}>
             <div className="col s5">
               <div className="card">
-                <ProcessPage />
-                <hr />
-                <ResumePage />
+                  <br />
+                <SkillsPage />
                 <br />
                 <hr />
+                <ProcessPage />
+                  <hr />
+                <ResumePage />
+                  <br />
+                  <hr />
                 <BioPage />
+                  <hr />
               </div>
             </div>
             <div className="col s7 right">

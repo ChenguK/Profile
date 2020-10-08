@@ -5,7 +5,7 @@ class ProcessPage extends Component {
 
     render () {
         return (
-            <div className="center">
+            <div className="center" id="Process">
                 <Process />
             </div>
         )

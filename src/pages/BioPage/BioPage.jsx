@@ -5,7 +5,7 @@ class BioPage extends Component {
 
     render () {
         return (
-            <div className="center">
+            <div className="center" id="Bio">
                 <Bio />
             </div>
         )

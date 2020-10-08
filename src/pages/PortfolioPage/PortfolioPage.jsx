@@ -4,7 +4,8 @@ import Portfolio from '../../components/Portfolio/Portfolio';
 class PortfolioPage extends Component {
    render(){
        return (
-           <div>
+           <div id="Portfolio">
+               
                <Portfolio />
            </div>
        )

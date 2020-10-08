@@ -10,11 +10,10 @@
     -webkit-box-sizing: content-box;
 }
 
-
-#header_email:hover {
-    background: none;
-}
-
-button:hover {
-    background-color: none;
+.z-depth-1-half, 
+.btn:hover, 
+.btn-large:hover, 
+.btn-small:hover, 
+.btn-floating:hover {
+    box-shadow: 0 4rem 4rem 0;
 }
