@@ -9,19 +9,18 @@ class Header extends Component {
 
     render () {
         return (
-            <div className="Header card container" id="header">
-                <div className="row">
+            <div className="Header card" id="header">
+                <div className="row container">
                 
-                        
-                    <div className="right col s8 ">
-                    <h3>Chengu Kargbo</h3>
+                    <div className="right col s8">
+                    <h1>Chengu Kargbo</h1>
+                        <h5>Full Stack Software Developer</h5>
                         <ul>
-                            <li>Full Stack Software Developer</li>
                             {/* <li>Actor</li>
                             <li>Writer</li> */}
                             <br/>
                             <li className="container left-align">Chengu Kargbo is a natural problem solver, a creative Full Stack Web Developer, and an actor who loves helping creative people take their vision from an idea to a global audience.</li>
-                            <br/>
+                     
                             <li style={{ margin: "0 7rem 0 7rem", display: "inline"}}>
                             <form className="btn-floating btn-large green" 
                                 action= "mailto:ChenguKargbo@gmail.com">
@@ -37,7 +36,7 @@ class Header extends Component {
                                     <img id="header_git" width="45rem" title="GitHub" style={{ marginTop: ".3rem", cursor: "pointer"}} src={ Git } alt="github"/>
                                 </button> 
                             </form>
-                            <form  className=" btn-floating btn-large green" 
+                            <form  className="btn-floating btn-large green" 
                                 action="https://www.linkedin.com/in/chengukargbo/" target="_blank">
                                 <button 
                                 type="submit">
@@ -47,9 +46,9 @@ class Header extends Component {
                             </li>
                         </ul>
                     </div>       
-                    <div className="right col s4 " width="70%">
+                    <div className="right col s4">
                     <img 
-                        width="60%"
+                        width="50%"
                         style={{ 
                             padding: "1rem 0 1rem 2rem", 
                             marginLeft: "4rem",

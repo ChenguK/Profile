@@ -3,7 +3,7 @@ import './Portfolio.css';
 // import FavInfo from '../FavInfo/FavInfo';
 import Git from './github-logo.jpg';
 import 'react-materialize';
-import Collapsible from 'react-collapsible';
+// import Collapsible from 'react-collapsible';
 
 
 

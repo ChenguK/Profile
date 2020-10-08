@@ -1,0 +1,10 @@
+#video {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -5rem;
+}
+
+#widget2 {
+    max-height: 75%;
+    max-width: 75%;
+}

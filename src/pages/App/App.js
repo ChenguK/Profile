@@ -10,6 +10,7 @@ import ContactPage from '../ContactPage/ContactPage';
 import ResumePage from '../ResumePage/ResumePage';
 import ProcessPage from '../ProcessPage/ProcessPage';
 import SkillsPage from '../SkillsPage/SkillsPage';
+import Video from '../../components/Video/Video';
 
 class App extends Component {
 state = {
@@ -31,24 +32,33 @@ async componentDidMount(){
           </div>
         </header>
           
-            <Header />
+            <Header className="header"/>
+            
           <div className="row center" style={{ width: "100%", margin: "2rem 3rem 2rem 4.5rem"}}>
-            <div className="col s5">
+            <div className="col s6">
               <div className="card">
+                <br />
+                <Video />
+                <br />
+                  <hr />
                   <br />
                 <SkillsPage />
-                <br />
-                <hr />
+                  <br />
+                  <hr />
+                  <br />
                 <ProcessPage />
                   <hr />
+                  <br />
                 <ResumePage />
                   <br />
                   <hr />
+                  <br />
                 <BioPage />
-                  <hr />
+                  <br />
+                  <br />
               </div>
             </div>
-            <div className="col s7 right">
+            <div className="col s6">
               <PortfolioPage />
             </div>
           </div>

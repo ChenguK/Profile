@@ -1,5 +1,5 @@
 .Header {
-    width: 90%;
+    width: 95%;
     margin: 2rem 4rem 2rem 3rem; 
 }
 
@@ -15,5 +15,6 @@
 .btn-large:hover, 
 .btn-small:hover, 
 .btn-floating:hover {
-    box-shadow: 0 4rem 4rem 0;
+    box-shadow: 0 .5rem .5em .25rem;
 }
+

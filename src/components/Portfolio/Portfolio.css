@@ -9,8 +9,8 @@ div.portfolio {
     margin: 0 auto;
     box-shadow: 1rem 2rem 3rem 1rem rgba(0,0,0, 0.253);
     transition: transform .2s ease;
-    height: 40vh;
-    width: 70vh;
+    height: 50vh;
+    width: 80vh;
     object-fit: cover;
     border-radius: 7px;
     background-repeat: no-repeat;

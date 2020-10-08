@@ -5,7 +5,7 @@ class PortfolioPage extends Component {
    render(){
        return (
            <div id="Portfolio">
-               
+               <h5 className="left-align">Past Projects</h5>
                <Portfolio />
            </div>
        )
