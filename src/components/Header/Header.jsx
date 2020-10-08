@@ -48,7 +48,7 @@ class Header extends Component {
                     </div>       
                     <div className="right col s4">
                     <img 
-                        width="50%"
+                        width="70%"
                         style={{ 
                             padding: "1rem 0 1rem 2rem", 
                             marginLeft: "4rem",
