@@ -33,6 +33,7 @@ async componentDidMount(){
         </header>
           
             <Header className="header"/>
+            <h4><i>Work is Love Made Visible- Kahlil Gibran</i></h4>
             
           <div className="row center" style={{ width: "100%", margin: "2rem 3rem 2rem 4.5rem"}}>
             <div className="col s6">
