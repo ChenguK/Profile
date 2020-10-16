@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-// import { Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import NavBar from '../../components/NavBar/NavBar';
 import Header from '../HeaderPage/HeaderPage';
 import BioPage from '../BioPage/BioPage';
@@ -31,12 +31,21 @@ async componentDidMount(){
             <NavBar />
           </div>
         </header>
-          
+        <body className="container">
             <Header className="header"/>
             <h4><i>Work is Love Made Visible- Kahlil Gibran</i></h4>
             
-          <div className="row center" style={{ width: "100%", margin: "2rem 3rem 2rem 4.5rem"}}>
-            <div className="col s6">
+          <div className="center" style={{ width: "100%", margin: "2rem 3rem 2rem 4.5rem"}}>
+            <Switch>
+            <Route exact path="/portfolio" render={({ history }) => 
+                    <div>
+                      <PortfolioPage 
+                      history={history}
+                      />
+                    </div>
+                  } />
+              <Route exact path="" render={({ history }) => 
+            <div>
               <div className="card">
                 <br />
                 <Video />
@@ -57,16 +66,19 @@ async componentDidMount(){
                 <BioPage />
                   <br />
                   <br />
+             
               </div>
-            </div>
-            <div className="col s6">
-              <PortfolioPage />
-            </div>
-          </div>
-          <br />
-
-          <ContactPage />
-            <br />
+              <br />
+              <ContactPage />
+              <br />
+              </div>
+              
+            } 
+            />
+                  
+              </Switch>
+              </div>
+          </body>   
           <footer style={{ paddingBottom: "30px" }} className="page-footer transparent">
             <div className="right black-text">All Rights Reserved, &copy; {new Date().getFullYear()} Chengu Kargbo &nbsp;</div>
           </footer>

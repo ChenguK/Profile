@@ -21,27 +21,27 @@ class NavBar extends Component {
                         }}>
                         <li 
                             style={{ margin: "0 10px 0 10px" }}>
-                                <Link to="/Portfolio#Portfolio">Portfolio</Link>
+                                <Link to="/portfolio" className="NavBar-link">Portfolio</Link>
                         </li>
                         <li 
                             style={{ margin: "0 10px 0 10px" }}>
-                                <Link to="/Skills#Skills">Skills</Link>
+                                <Link to="/Skills#Skills" className="NavBar-link">Skills</Link>
                         </li>
                         <li 
                             style={{ margin: "0 10px 0 10px" }}>
-                                <Link to="/Process#Process">Process</Link>
+                                <Link to="/Process#Process" className="NavBar-link">Process</Link>
                         </li>
                         <li 
                             style={{ margin: "0 10px 0 10px" }}>
-                                <Link to="/Resume#Resume">Resume</Link>
+                                <Link to="/Resume#Resume" className="NavBar-link">Resume</Link>
                         </li>
                         <li 
                             style={{ margin: "0 10px 0 10px" }}>
-                                <Link to="/Bio#Bio">About Me</Link>
+                                <Link to="/Bio#Bio" className="NavBar-link">About Me</Link>
                         </li>
                         <li 
                             style={{ margin: "0 10px 0 10px" }}>
-                                <Link to="/Contact#Contact">Contact</Link>
+                                <Link to="/Contact#Contact" className="NavBar-link">Contact</Link>
                         </li>
                     </ul>
 
