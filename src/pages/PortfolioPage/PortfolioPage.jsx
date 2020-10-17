@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import Portfolio from '../../components/Portfolio/Portfolio';
+import "./PortfolioPage.css";
 
 class PortfolioPage extends Component {
    render(){
        return (
            <div id="Portfolio">
-               <h5 className="left-align">Past Projects</h5>
+               
+               <br />
                <Portfolio />
            </div>
        )

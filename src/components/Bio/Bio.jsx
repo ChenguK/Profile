@@ -5,7 +5,7 @@ class Bio extends Component {
 
     render () {
         return (
-            <div className="Bio container left-align">
+            <div className="Bio left-align">
                   <h5>About Me</h5>  
                 <p>I am the daughter of two immigrants who taught me to work hard for what you want. When I was a child, my parents made sure to always have the latest full set of Encyclopedias and Dictionaries. If we ever had a question, we were told to "Look it up!" </p>
                 

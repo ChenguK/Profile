@@ -1,7 +1,6 @@
 div.portfolio {
     display: flex;
     flex-direction: column;
-    max-width: 5rem;
 }
 
 .zoom {
@@ -10,7 +9,7 @@ div.portfolio {
     box-shadow: 1rem 2rem 3rem 1rem rgba(0,0,0, 0.253);
     transition: transform .2s ease;
     height: 50vh;
-    width: 80vh;
+    width: 90vh;
     object-fit: cover;
     border-radius: 7px;
     background-repeat: no-repeat;
@@ -21,6 +20,14 @@ div.portfolio {
     transform: scale(1.1); 
     box-shadow: 2rem 4rem 6rem 2rem rgba(0,0,0, 0.253);
     
+  }
+
+  div.text {
+    margin-top: 1.5rem;
+    width: 90vh;
+    padding: 1rem;
+    border-radius: 7px;
+    box-shadow: 1rem 2rem 3rem 1rem rgba(0,0,0, 0.253);
   }
 
   #FavVideo {

@@ -17,7 +17,7 @@ class Skills extends Component {
                     <li>Audio Recording and Editing // Adobe Premiere // Final Cut</li>
                     <li>Adobe Photoshop // Photography</li>
                     <li>Wordpress // SEO Optimization // Google Analytics</li> 
-                    <li> Authentication ( Google People Api and language based)// Authorization</li>
+                    <li> Authentication ( Google People Api and language based) // Authorization</li>
                 </ul>
             </div>
         )

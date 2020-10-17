@@ -31,54 +31,54 @@ async componentDidMount(){
             <NavBar />
           </div>
         </header>
-        <body className="container">
             <Header className="header"/>
             <h4><i>Work is Love Made Visible- Kahlil Gibran</i></h4>
-            
-          <div className="center" style={{ width: "100%", margin: "2rem 3rem 2rem 4.5rem"}}>
+          
+          <div className="container" style={{ width: "80%"}}>
             <Switch>
-            <Route exact path="/portfolio" render={({ history }) => 
-                    <div>
-                      <PortfolioPage 
-                      history={history}
-                      />
-                    </div>
-                  } />
-              <Route exact path="" render={({ history }) => 
-            <div>
-              <div className="card">
-                <br />
-                <Video />
-                <br />
-                  <hr />
+              <Route exact path="/portfolio" render={({ history }) => 
+                      <div>
+                        <h3><u>Past Projects</u></h3>
+                        <PortfolioPage 
+                        history={history}
+                        />
+                      </div>
+                    } />
+                <Route exact path="" render={({ history }) => 
+              <div>
+                <div className="card">
                   <br />
-                <SkillsPage />
+                  <h5>Nice to meet you!</h5>
+                  <Video />
                   <br />
-                  <hr />
-                  <br />
-                <ProcessPage />
-                  <hr />
-                  <br />
-                <ResumePage />
-                  <br />
-                  <hr />
-                  <br />
-                <BioPage />
-                  <br />
-                  <br />
-             
-              </div>
-              <br />
-              <ContactPage />
-              <br />
-              </div>
+                    <hr />
+                    <br />
+                  <SkillsPage />
+                    <br />
+                    <hr />
+                    <br />
+                  <ProcessPage />
+                    <hr />
+                    <br />
+                  <ResumePage />
+                    <br />
+                    <hr />
+                    <br />
+                  <BioPage />
+                    <br />
+                    <br />
               
+                </div>
+                    <br />
+                    <ContactPage />
+                    <br />
+              </div>
+                    
             } 
             />
                   
-              </Switch>
-              </div>
-          </body>   
+            </Switch>
+      </div>
           <footer style={{ paddingBottom: "30px" }} className="page-footer transparent">
             <div className="right black-text">All Rights Reserved, &copy; {new Date().getFullYear()} Chengu Kargbo &nbsp;</div>
           </footer>
