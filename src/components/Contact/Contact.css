@@ -9,12 +9,15 @@ button:hover {
     pointer-events: auto;
 }
 
-li {
-    display: inline;
+#contact_li {
+    display: flex;
+    justify-content: center;
 }
 
 #contact_buttons {
     display: flex;
+    width: 50vh;
     margin-top: 2rem;
     justify-content: space-evenly;
+    
 }

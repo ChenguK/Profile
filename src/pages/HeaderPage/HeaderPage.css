@@ -2,6 +2,7 @@ ul {
     list-style: none;
 }
 
-/* .HeaderPage {
-    margin-;
-} */
+.HeaderPage {
+    display: flex;
+    justify-content: center;
+}

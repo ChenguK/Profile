@@ -9,7 +9,7 @@ class Resume extends Component {
             <h5>Download my Resume</h5>
          
         <br />
-        <a className="btn-floating btn-large green" href={ Res } download><i class="material-icons">
+        <a className="btn-floating btn-large green" href={ Res } download><i className="material-icons">
 arrow_downward
 </i> </a>
         </div>

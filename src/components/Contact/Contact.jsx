@@ -12,7 +12,7 @@ class Contact extends Component {
         <h4>Thanks for Stopping By</h4>
         <h5>How to Contact Me</h5>
 
-        <ul>
+        <ul id="contact_li">
             <li id="contact_buttons" className="inline">
 
                 <form className="btn-floating btn-large green" 

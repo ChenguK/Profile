@@ -1,5 +1,5 @@
 .Header {
-    width: 95%;
+    width: 85%;
     margin: 2rem 4rem 2rem 3rem; 
 }
 
@@ -18,8 +18,14 @@
     box-shadow: 0 .5rem .5rem .25rem;
 }
 
+#header_buttons_li {
+    display: flex;
+    justify-content: center;
+}
+
 #header_buttons {
     display: flex;
-    margin-top: 2rem;
+    width: 50vh;
+    margin-top: 1rem;
     justify-content: space-evenly;
 }
