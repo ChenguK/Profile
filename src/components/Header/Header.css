@@ -18,3 +18,8 @@
     box-shadow: 0 .5rem .5rem .25rem;
 }
 
+#header_buttons {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}

@@ -16,24 +16,22 @@ class Header extends Component {
                     <h1>Chengu Kargbo</h1>
                         <h5>Full Stack Software Developer</h5>
                         <ul>
-                            {/* <li>Actor</li>
-                            <li>Writer</li> */}
                             <br/>
                             <li className="container left-align">Chengu Kargbo is a natural problem solver, a creative Full Stack Web Developer, and an actor who loves helping creative people take their vision from an idea to a global audience.</li>
                      
-                            <li style={{ margin: "0 7rem 0 7rem", display: "inline"}}>
+                            <li id="header_buttons">
                             <form className="btn-floating btn-large green" 
                                 action= "mailto:ChenguKargbo@gmail.com">
                                 <button>
                                     <img id="header_email" title="Email Me" width="45rem" style={{ marginTop: ".3rem"}} src={ Envelope } alt="email"/>
                                 </button> 
                             </form>
-                            
-                            <form style={{ margin: "2rem", cursor: "pointer"}} className="btn-floating btn-large green" 
+   
+                            <form  className="btn-floating btn-large green" 
                                 action="https://github.com/ChenguK" target="_blank">
                                 <button 
                                 type="submit">
-                                    <img id="header_git" width="45rem" title="GitHub" style={{ marginTop: ".3rem", cursor: "pointer"}} src={ Git } alt="github"/>
+                                    <img id="header_git" width="45rem" title="GitHub" style={{ marginTop: ".4rem", cursor: "pointer"}} src={ Git } alt="github"/>
                                 </button> 
                             </form>
                             <form  className="btn-floating btn-large green" 
@@ -48,10 +46,10 @@ class Header extends Component {
                     </div>       
                     <div className="right col s4">
                     <img 
-                        width="70%"
+                        width="75%"
                         style={{ 
-                            padding: "1rem 0 1rem 2rem", 
-                            marginLeft: "4rem",
+                            padding: "1rem 3rem 1rem 2rem", 
+                            margin: "1rem 3rem 0 2rem",
                             borderRadius: "7rem"
                         }}
                         

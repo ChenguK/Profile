@@ -13,9 +13,9 @@ class Contact extends Component {
         <h5>How to Contact Me</h5>
 
         <ul>
-            <li style={{ margin: "0 7rem 0 7rem", display: "inline"}}>
+            <li id="contact_buttons" className="inline">
 
-                <form className=" btn-floating btn-large green" 
+                <form className="btn-floating btn-large green" 
                     action= "mailto:ChenguKargbo@gmail.com">
                     <button 
                     type="submit">
@@ -23,11 +23,11 @@ class Contact extends Component {
                     </button> 
                 </form>
 
-                <form style={{ margin: "2rem", cursor: "pointer"}} className="btn-floating btn-large green" 
+                <form className="btn-floating btn-large green" 
                     action="https://github.com/ChenguK" target="_blank">
                     <button 
                     type="submit">
-                        <img id="header_git" width="45rem" title="GitHub" style={{ marginTop: ".3rem", cursor: "pointer"}} src={ Git } alt="github"/>
+                        <img id="header_git" width="45rem" title="GitHub" style={{ marginTop: ".4rem", cursor: "pointer"}} src={ Git } alt="github"/>
                     </button> 
                 </form>
 

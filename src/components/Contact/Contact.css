@@ -8,3 +8,13 @@ button:hover {
     background-color: rgb(193, 226, 215);
     pointer-events: auto;
 }
+
+li {
+    display: inline;
+}
+
+#contact_buttons {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
