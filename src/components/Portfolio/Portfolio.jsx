@@ -91,12 +91,12 @@ class Portfolio extends Component {
                 </div>
                             <div className="card text contenteditable"><h4>Your New Favorite Video</h4> 
                                 <p className="left-align">  
-                                I have created an app where you can look for your new favorite video. Search any term, and click on any of the images and a modal appears with a larger picture of the videos thumbnail with the title, channel name and a description of the video below.<br />
+                                I have created an app where you can look for your new favorite video. Search any term, click on any video are interested in.  A modal appears with a larger picture of the video's thumbnail with the title, channel name, and a description of the video below. If you would like to watch it, click on the picture of the video to see a video player display.<br />
                                 <br/>
                                 <b>Languages: </b>Javascript, JQuery, HTML, CSS<br />
                                 <b>Technologies: </b>AJAX, Youtube API, Materialize<br />
                                 <br />
-                                This was a solo project so I was solely responsible for all of Your New Favorite Video.
+                                This was a solo project, so I was solely responsible for all of Your New Favorite Video.
                                 </p>
                    <div className="zoom" id="FavVideo">
                                 
@@ -108,7 +108,7 @@ class Portfolio extends Component {
                                     </button>
                                 </form>
 
-                                <form style={{ margin: "0 1rem 0 1rem", display: "inline" }} action="https://chenguk.github.io/newfavoritevideo/" target="_blank">
+                                <form style={{ margin: "0 1rem 0 1rem", display: "inline" }} action="https://newfavoritevideo.onrender.com/" target="_blank">
                                     <button title="Live Site" className="btn-floating btn-large waves-effect waves-light green" rel="noreferrer noopener">
                                         <i className="material-icons">trending_flat</i>
                                     </button>
