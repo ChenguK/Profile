@@ -31,7 +31,7 @@ div.portfolio {
   }
 
   #FavVideo {
-    background-image: url("./MyFavoriteVideo.png");
+    background-image: url("./Video_Playing_And_Playlist.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
